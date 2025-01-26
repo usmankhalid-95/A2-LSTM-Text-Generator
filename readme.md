@@ -25,17 +25,10 @@ This project demonstrates an LSTM-based language model trained on two datasets, 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<your-username>/lstm-language-model.git
-   cd lstm-language-model
+   https://github.com/usmankhalid-95/A2-LSTM-Text-Generator.git
    ```
 
-2. **Install Dependencies**:
-   Make sure you have Python 3.8+ installed. Then, install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Streamlit App**:
+2. **Run the Streamlit App**:
    ```bash
    streamlit run app.py
    ```
@@ -46,10 +39,10 @@ This project demonstrates an LSTM-based language model trained on two datasets, 
 
 ### **Architecture**
 The model uses the following architecture:
-- Embedding Dimension: `256`
-- Hidden Dimension: `256`
-- LSTM Layers: `1`
-- Dropout Rate: `0.3`
+- Embedding Dimension: `1024`
+- Hidden Dimension: `1024`
+- LSTM Layers: `2`
+- Dropout Rate: `0.65`
 
 The input text is tokenized, converted to embeddings, and passed through LSTM layers to predict the next word.
 
@@ -61,9 +54,9 @@ The input text is tokenized, converted to embeddings, and passed through LSTM la
   **Note**: Ensure to use datasets ethically and comply with usage rights.
 - **Parameters**:
   - Learning Rate: `1e-3`
-  - Sequence Length: `25`
-  - Gradient Clipping: `0.25`
-  - Epochs: `1`
+  - Sequence Length: `35`
+  - Gradient Clipping: `0.65`
+  - Epochs: `5`
 
 Models were trained using PyTorch and saved as `.pt` files for inference.
 
@@ -95,33 +88,22 @@ Models were trained using PyTorch and saved as `.pt` files for inference.
 
 ---
 
+## 📸 Screenshots
+
+Here are some screenshots of the Streamlit UI:
+
+- **Tested Image 1**
+  ![Tested Image 4](tested_images/Tested_4.png)
+
+- **Tested Image 2**
+  ![Tested Image 3](tested_images/Tested_3.png)
+
+- **Tested Image 3**
+   ![Tested Image 2](tested_images/Tested_2.png)
+
+- **Tested Image 4**
+  ![Tested Image 1](tested_images/Tested.png)
+
 ## 🔗 Dataset Credits
-
-- **Harry Potter**: Fan-sourced dataset for creative usage.
-- **Pride and Prejudice**: Text sourced from [Project Gutenberg](https://www.gutenberg.org/).
-
-Please note that the Harry Potter dataset is used solely for educational purposes.
-
----
-
-## 🔮 Future Enhancements
-
-- Extend the app to support other datasets and models.
-- Improve the training pipeline to allow for multi-GPU training.
-- Add options for fine-tuning the models through the Streamlit interface.
-
----
-
-## 🤝 Acknowledgments
-
-Special thanks to **PyTorch** for its powerful deep learning framework and **Streamlit** for providing an excellent tool to build interactive data apps.
-
----
-
-## 🛠 Requirements
-
-- Python 3.8+
-- Streamlit
-- PyTorch
-- NumPy
-- Transformers
+- **Pride and Prejudice**: The dataset is sourced from [Project Gutenberg](https://www.gutenberg.org/ebooks/1342), which provides free access to public domain books.
+- **Harry Potter**: This dataset is available on Hugging Face, created by [elricwan](https://huggingface.co/datasets/elricwan/HarryPotter)

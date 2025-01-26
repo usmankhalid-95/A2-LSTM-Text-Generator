@@ -33,12 +33,11 @@ def load_model(model_path, device):
     checkpoint = torch.load(model_path, map_location=device)
     vocab = checkpoint["vocab"]
 
-    # Use hardcoded parameters based on your saved configuration
     vocab_size = len(vocab)
-    embed_dim = 256       # Fixed to your saved parameter
-    hidden_dim = 256      # Fixed to your saved parameter
-    num_layers = 1        # Fixed to your saved parameter
-    dropout = 0.3         # Fixed to your saved parameter
+    embed_dim = 1024      
+    hidden_dim = 1024     
+    num_layers = 2        
+    dropout = 0.65        
 
     model = LSTMLanguageModel(vocab_size, embed_dim, hidden_dim, num_layers, dropout).to(device)
     model.load_state_dict(checkpoint["model_state"])
