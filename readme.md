@@ -1,4 +1,3 @@
-```markdown
 # LSTM-Based Language Model with Streamlit Interface
 
 This project demonstrates an LSTM-based language model trained on two datasets, **Harry Potter** and **Pride and Prejudice**, and provides an interactive Streamlit application for generating text based on these models.
