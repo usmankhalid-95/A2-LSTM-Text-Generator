@@ -1,4 +1,4 @@
-Here’s your GitHub-ready README:
+Here’s the updated README with the specified columns dropped:
 
 ```markdown
 # LSTM-Based Language Model with Streamlit Interface
@@ -70,6 +70,21 @@ The input text is tokenized, converted to embeddings, and passed through LSTM la
 
 Models were trained using PyTorch and saved as `.pt` files for inference.
 
+### **Training Details**
+
+| **Model**              | **Epoch** | **Train Perplexity** | **Valid Perplexity** |
+|------------------------|-----------|----------------------|----------------------|
+| **Harry Potter**        | 1         | 116.361              | 76.047               |
+|                        | 2         | 59.921               | 59.170               |
+|                        | 3         | 44.194               | 53.581               |
+|                        | 4         | 35.746               | 50.908               |
+|                        | 5         | 30.293               | 49.395               |
+| **Pride and Prejudice** | 1         | 161.777              | 95.817               |
+|                        | 2         | 82.185               | 75.217               |
+|                        | 3         | 64.598               | 67.632               |
+|                        | 4         | 54.696               | 64.988               |
+|                        | 5         | 48.182               | 66.149               |
+
 ---
 
 ## 🧑‍💻 Usage Instructions
@@ -113,11 +128,3 @@ Special thanks to **PyTorch** for its powerful deep learning framework and **Str
 - PyTorch
 - NumPy
 - Transformers
-
-Refer to `requirements.txt` for the complete list of dependencies.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
