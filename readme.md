@@ -93,22 +93,22 @@ Models were trained using PyTorch and saved as `.pt` files for inference.
 Here are some screenshots of the Streamlit UI:
 
 - **Tested Image 1**
-  ![Tested Image 1](./tested_images/Tested.png)
+  ![Tested Image 1](tested_images/Tested.png)
 
 - **Tested Image 2**
-  ![Tested Image 2](./tested_images/Tested 2.png)
+  ![Tested Image 2](tested_images/Tested 2.png)
 
 - **Tested Image 3**
-  ![Tested Image 3](./tested_images/Tested 3.png)
+  ![Tested Image 3](tested_images/Tested 3.png)
 
 - **Tested Image 4**
-  ![Tested Image 4](./tested_images/Tested 4.png)
+  ![Tested Image 4](tested_images/Tested 4.png)
 
 - **Tested Image 5**
-  ![Tested Image 5](./tested_images/Tested 5.png)
+  ![Tested Image 5](tested_images/Tested 5.png)
 
 - **Tested Image 6**
-  ![Tested Image 6](./tested_images/Tested 6.png)
+  ![Tested Image 6](tested_images/Tested 6.png)
 
 ## 🔗 Dataset Credits
 - **Pride and Prejudice**: The dataset is sourced from [Project Gutenberg](https://www.gutenberg.org/ebooks/1342), which provides free access to public domain books.
