@@ -1,5 +1,3 @@
-Here’s the updated README with the specified columns dropped:
-
 ```markdown
 # LSTM-Based Language Model with Streamlit Interface
 
