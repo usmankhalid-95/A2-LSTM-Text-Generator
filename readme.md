@@ -1,5 +1,3 @@
-Here’s your complete `README.md` file with the images included, ready for you to copy and paste:
-
 ```markdown
 # LSTM-Based Language Model with Streamlit Interface
 
