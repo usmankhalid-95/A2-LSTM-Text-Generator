@@ -1,4 +1,3 @@
-```markdown
 # LSTM-Based Language Model with Streamlit Interface
 
 This project demonstrates an LSTM-based language model trained on two datasets, **Harry Potter** and **Pride and Prejudice**, and provides an interactive Streamlit application for generating text based on these models.
@@ -26,20 +25,13 @@ This project demonstrates an LSTM-based language model trained on two datasets, 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/usmankhalid-95/A2-LSTM-Text-Generator.git
+   https://github.com/usmankhalid-95/A2-LSTM-Text-Generator.git
    ```
 
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Streamlit App**:
+2. **Run the Streamlit App**:
    ```bash
    streamlit run app.py
    ```
-
-4. **Access the App**: Open a browser and navigate to `http://localhost:8501` to interact with the app.
 
 ---
 
