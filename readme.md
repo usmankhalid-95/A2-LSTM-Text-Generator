@@ -104,12 +104,6 @@ Here are some screenshots of the Streamlit UI:
 - **Tested Image 4**
   ![Tested Image 4](tested_images/Tested_4.png)
 
-- **Tested Image 5**
-  ![Tested Image 5](tested_images/Tested_5.png)
-
-- **Tested Image 6**
-  ![Tested Image 6](tested_images/Tested_6.png)
-
 ## 🔗 Dataset Credits
 - **Pride and Prejudice**: The dataset is sourced from [Project Gutenberg](https://www.gutenberg.org/ebooks/1342), which provides free access to public domain books.
 - **Harry Potter**: This dataset is available on Hugging Face, created by [elricwan](https://huggingface.co/datasets/elricwan/HarryPotter)
